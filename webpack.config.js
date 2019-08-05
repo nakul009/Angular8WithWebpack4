@@ -2,9 +2,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path')
 var webpackConfig = {
   entry: {
-    EntryFile: [
-      path.join(__dirname, 'src', 'main.ts')
-    ]
+    main: './src/main.ts'
   }, resolve: {
     extensions: ['.ts', '.js']
   },
