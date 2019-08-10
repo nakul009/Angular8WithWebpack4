@@ -1,3 +1,4 @@
+
 # Angular8WithWebpack4
 
 To get more Info about how webpack is configured and second approach to configure webpack with angular you can check out this [BLOG] 
@@ -8,17 +9,15 @@ You can clone this repo for starting point of angular with your own webpack conf
 
 It uses webpack dev server to run so only required files to run this Project is
 
-| node_modules
- | src
-    | app
-    | favicon
-    | index.html
-    | main.ts
-    | polyfill.ts
-    | styles.css
- | package.json
- | package.lock.json
- | tsconfig.json
+| node_modules<br>| src     
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     | app     
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    | favicon     
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    | index.html    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   | main.ts   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    | polyfill.ts   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    | styles.css                   
+| package.json<br>
+| package.lock.json<br>           | tsconfig.json<br>
  |Webpack.config.js
 
 
